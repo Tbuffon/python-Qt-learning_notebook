@@ -20,6 +20,12 @@ private slots:
 
    void on_btnClear_clicked();
 
+    void on_chkBoxBold_toggled(bool checked);
+
+   void on_chkBoxUnder_clicked();
+
+    void on_chkBoxItalic_clicked(bool checked);
+
 private:
    Ui::Dialog *ui;
 };

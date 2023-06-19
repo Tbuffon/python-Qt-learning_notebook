@@ -18,3 +18,21 @@ void Dialog::on_btnClear_clicked()
 {
 
 }
+
+void Dialog::on_chkBoxBold_toggled(bool checked)
+{
+
+}
+
+
+void Dialog::on_chkBoxUnder_clicked()
+{
+
+}
+
+
+void Dialog::on_chkBoxItalic_clicked(bool checked)
+{
+
+}
+
