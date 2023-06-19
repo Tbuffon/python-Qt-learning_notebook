@@ -69,4 +69,3 @@ if  __name__ == "__main__":    ##测试程序
    boy.ageChanged[str].disconnect(resp.do_ageChanged_str)   #断开连接
    print("\n **断开ageChanged[str]的连接后**")    
    boy.setAge(10)   #发射 两个ageChanged 信号    
-    
