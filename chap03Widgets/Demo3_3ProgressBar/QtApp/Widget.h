@@ -16,7 +16,12 @@ public:
    ~Widget();
 
 
-private:
+   private slots:
+   void on_slider_valueChanged(int value);
+
+       void on_radio_Percent_clicked();
+
+   private:
    Ui::Widget *ui;
 };
 
